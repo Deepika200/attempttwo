@@ -1,0 +1,55 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "image": "assets/images/fiction.jpg",
+        "name": "Fiction",
+        "description": "Fiction is any narrative work where events that happen are imaginary and not real.",
+        "books": [
+          { "title": "The Great Gatsby", "author": "F. Scott Fitzgerald" },
+          { "title": "1984", "author": "George Orwell" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "assets/images/novel.jpg",
+        "name": "Novel",
+        "description": "A novel is a long, fictional narrative which describes intimate human experiences.",
+        "books": [
+          { "title": "Pride and Prejudice", "author": "Jane Austen" },
+          { "title": "Moby Dick", "author": "Herman Melville" }
+        ]
+      },
+      {
+        "id": 3,
+        "image": "assets/images/mystery.jpg",
+        "name": "Mystery",
+        "description": "Mystery novels involve solving a crime or uncovering secrets.",
+        "books": [
+          { "title": "The Hound of the Baskervilles", "author": "Arthur Conan Doyle" },
+          { "title": "Gone Girl", "author": "Gillian Flynn" }
+        ]
+      },
+      {
+        "id": 4,
+        "image": "assets/images/narrative.jpg",
+        "name": "Narrative",
+        "description": "Narrative books tell a story or give a recount of an event or series of events.",
+        "books": [
+          { "title": "The Diary of a Young Girl", "author": "Anne Frank" },
+          { "title": "Sapiens", "author": "Yuval Noah Harari" }
+        ]
+      },
+      {
+        "id": 5,
+        "image": "assets/images/thriller.jpg",
+        "name": "Thriller",
+        "description": "Thriller novels are characterized by fast pacing, frequent action, and resourceful heroes.",
+        "books": [
+          { "title": "The Girl with the Dragon Tattoo", "author": "Stieg Larsson" },
+          { "title": "The Da Vinci Code", "author": "Dan Brown" }
+        ]
+      }
+    ]
+  }
+  

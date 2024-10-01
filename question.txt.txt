@@ -1,0 +1,67 @@
+Book Library - Angular
+
+
+Design a web page for Book Library that initially displays the LibraryHome component and navigates to the components based on user action.
+
+NOTE:
+Provided template code is an error-free code. When you execute the given template code in EBox editor, the new tab will get open up. When you inspect the page, you will get Bootstrap jQuery error. But this error can be ignored. This will not create any impact in your solution.
+
+Constraints :
+
+Create a class Categories with the following attributes
+
+Attribute	Data type
+id	Number
+image	String
+name	String
+description	String
+books	any
+
+Technical Description :
+
+Mock data for the book categories is given as a part of the template. The path of the mock data is “src/assets/mock-data.json”
+CSS code is given as a part of the template.
+The component ‘home’, ‘categories’, ‘description’, and class ‘Categories’ are given as a part of the template code.
+While passing the URL ‘/home’, go to the HomeComponent.
+The home.component.html page displays the home page as shown in the screenshot.
+On clicking the Explore Book Categories here .... button in the Home page, it will be redirected to the URL ‘/categories’ and go to categories-component & display the search box with the book categories options(Fiction, Novel, Mystery, Narrative and Thriller).
+If we select any book categories option, then display the details about the selected category.
+Use the CategoriesService  to get the list of categories available in the JSON file using the HTTP get method
+On clicking the View More button, it will be redirected to the URL ‘categories/:categoryName’ and go to the description-component & display the available books for the selected category.
+
+Note :
+
+Kindly follow the id, and name specifications given in the screenshot.
+Kindly refer to the content which is given as a part of the description.
+Do not change the template code.
+
+Sample Screenshot 1: (Home Component)
+
+While providing the URL http://localhost:4200/home
+
+
+
+Sample Screenshot 2: (Categories Component)
+
+If the user clicks the Explore Book Categories here button, then ‘Categories’ component should be rendered with the url path ‘/categories’.
+
+
+
+Sample Screenshot 3: (Categories Component)
+
+If the user selects the option from the select tag, then an introduction about the selected option should be rendered conditionally.
+
+
+
+Sample Screenshot 4: (Id and class marking for the above image)
+
+
+
+Sample Screenshot 5: (Description Component)
+
+If the user clicks the View More button, then ‘Description’ component should be rendered with the URL path ‘/categories/:categoryName’.
+
+
+
+Sample Screenshot 6: (Id and class marking for the above image)
+

@@ -1,0 +1,22 @@
+<p>categories works!</p>
+<h1>Explore categories</h1>
+<br>
+<h4>select categories</h4>
+
+<p>categories works!</p>
+
+<!-- Dropdown to select a category -->
+<select (change)="onSelectedCategory($event)">
+  <option *ngFor="let category of categories" [value]="category.name">{{ category.name }}</option>
+</select>
+
+<!-- Display selected category details if a category is selected -->
+<div *ngIf="selectedCategory">
+  <h2>{{ selectedCategory.name }}</h2>
+  <p>{{ selectedCategory.description }}</p>
+  <ul>
+    <li *ngFor="let book of selectedCategory.books">
+      {{ book.title }} by {{ book.author }}
+    </li>
+  </ul>
+</div>
